@@ -1,1 +1,15 @@
+.App {
+    display: grid;
+    grid-template-columns: 20vw 78vw;
+    grid-template-areas: " formToDo todoList ";
+}
+
+@media (max-width: 600px) {
+    .App {
+        grid-template-columns: none;
+        grid-template-areas: "todoList" , "formToDo";
+        grid-column: unset;
+        grid-template-rows: max-content;
+    }
+}
 

@@ -1,0 +1,25 @@
+.formContainer {
+    grid-area: formToDo;
+    margin-inline: 20px;
+    padding: 15px;
+    background-color:rgb(176, 176, 176);
+    border-radius: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;  
+}
+
+.form input {
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 15px;
+}
+
+.form label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}

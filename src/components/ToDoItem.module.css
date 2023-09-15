@@ -1,0 +1,35 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(211, 211, 210, 0.5);
+    margin-bottom: 20px;
+    padding: 1.3rem;
+    border-radius: 20px;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    color: red;
+
+}
+
+.description {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.action {
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgba(248, 248, 53, 0.5);
+    width:fit-content;
+    text-align: center;
+}
